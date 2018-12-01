@@ -4,6 +4,8 @@
 # GitKraken Installation
 - [https://support.gitkraken.com/how-to-install](https://support.gitkraken.com/how-to-install) jlsjll this is 
 this is random text. 
+- [https://support.gitkraken.com/how-to-install](https://support.gitkraken.com/how-to-install) random lwlkjelrweörljew
+tjlwejlrj dsalkjfwllejkrwler
 
 # Präsentation Link
 - [https://gitpitch.com/friep/git-our-shit-together](https://gitpitch.com/friep/git-our-shit-together)
