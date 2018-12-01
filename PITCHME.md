@@ -188,6 +188,8 @@ and the repository exists.
     - Löschung von Dateien
     - Umbenennung von Dateien
 - ein Commit kann mehrere Änderungen beinhalten
+asasasa
+
 
 ---
 
