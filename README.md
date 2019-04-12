@@ -2,12 +2,8 @@
 - [https://github.com/join?source=header-home](https://github.com/join?source=header-home)
 
 # GitKraken Installation
-- [https://support.gitkraken.com/how-to-install](https://support.gitkraken.com/how-to-install) jlsjll this is 
-this is random text. 
-- [https://support.gitkraken.com/how-to-install](https://support.gitkraken.com/how-to-install) random lwlkjelrweörljew
-tjlwejlrj dsalkjfwllejkrwler
-#+
-dhakskaskjaskj+ 
+- [https://support.gitkraken.com/how-to-install](https://support.gitkraken.com/how-to-install)
+- [https://support.gitkraken.com/how-to-install](https://support.gitkraken.com/how-to-install) 
 
 
 # Präsentation Link

@@ -65,7 +65,7 @@
 
 ---
 
-### Hands On 1 - Fork und Clone
+### Hands On 2 - Fork und Clone
 
 #### Mona & Grace
 
@@ -356,6 +356,15 @@ Grace + Mona
 
 ### Hands on 5: Merge conflicts
 
+@ol
+- Mona oder Grace: editiert **auf GitHub** das Readme in einer Zeile
+- Mona & Grace: editiert bei sich lokal das Readme in der gleichen Zeile (etwas anderes)
+- Mona & Grace: eigene Änderung committen (nicht pushen!)
+- Mona & Grace: `pull` 
+- Mona & Grace: merge conflict lokal lösen und die eigene Version  pushen.
+
+@olend 
+
 ---
 
 # mit GitHub arbeiten
@@ -375,11 +384,11 @@ Grace + Mona
 
 ---
 
-### Hands On 4: Issue
+### Hands On 6: Issue
 
 @ol
 
-- Mona: Issue erstellen: "Grace's LieblingsGIF fehlt"
+- Mona: Issue erstellen: "Add Grace's favorite GIF"
 - Grace: füge der Präsentation eine neue Folie hinzu mit deinem Lieblingsgif (giphy -> copy link)
 - Grace: add + commit. verlinke issue Nummer in der commit message (#issueno)
 - Grace: push
@@ -389,12 +398,26 @@ Grace + Mona
 
 ---
 
-# Branches
+### Fazit Issues
+
+@ul
+
+- sehr nützlich zur Projektorganisation
+- Diskussion ist zentralisiert (aber: keine sensiblen Informationen in GitHub!)
+- Tipp: Projekt mit Kanban Board (siehe "Projects" in GitHub) zum Prozesstracking (todo, in progress, done)
+
+@ulend
+
+--> bitte verwenden!
+
+---
+
+# Branches und Pull Requests
 
 ---
 
 
-[picture of complicated gitkraken with a lot of branches]
+![Gitkraken branching](images/screenshot_branching_gitkraken.png)
 
 ---
 
@@ -419,9 +442,9 @@ Grace + Mona
 
 @ul
 
-- "master" branch frei von unfertigem Code halten
-- unabhängige Entwicklung von Code ("feature branches")
-- Experimente
+- Stabilität: Nur working code auf "master" branch --> z.B. Download von GitHub (`devtools::install_github()`) oder continuous deployment
+- Kollaboration: unabhängige Entwicklung von Code ("feature branches")
+- Experimente: Branch einfach wieder löschen. 
 
 @ulend
 
@@ -431,7 +454,8 @@ Grace + Mona
 
 @ol
 
-- Branch erstellen
+- Branch erstellen mit aussagekräftigem Namen (z.B. issue1-add-favorite-gif)  
+- branch auschecken (Doppelklick on Icon in Gitkraken)
 - normal weiterarbeiten (pull-commit-push cycles)
 - (optional: merge andere branches in deinen branch um Updates zu bekommen)
 - merge Branch in master branch 
@@ -444,20 +468,25 @@ Grace + Mona
 
 - Rechtsclick auf branch name / master
 - hängt davon ab, wer "weiter vorne" ist (?)
-    - wenn neue commits auf master: merge master into #1-add-branch-slides -> branch wird geupdatet
-    - wenn neue commits auf branch: merge #1-add-branch-slides into master -> master wird geupdatet
+    - wenn neue commits auf master: merge master into issue1-add-favorite-gif -> branch wird geupdatet
+    - wenn neue commits auf branch: merge issue1-add-favorite-gif into master -> master wird geupdatet
 
 
+### Pull Requests
+
+@box[bg-blue text-black rounded](Pull requests#Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.[Source](https://help.github.com/en/articles/about-pull-requests))
+
+--> in Kombination mit Branches verwenden!
 
 ---
 
-### Branches Fazit
+### Branches und Pull Requests Fazit
 
 @ul
 
-- besonders nützlich bei Kollaboration
-- Entwicklung von Packages 
-- Relevanz für Datenprojekte (?)
+- besonders nützlich bei Entwicklung von Packages oder Applikationen (z.B. Shiny Dashboards): Feature Branches. 
+- Relevanz für Datenprojekte: z.B. paralleles Ausprobieren von verschiedenen Modellansätzen. 
+- Pull Requests (PR) zentralisieren Diskussion an einem Ort. 
 
 @ulend
 
