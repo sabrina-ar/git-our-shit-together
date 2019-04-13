@@ -228,8 +228,9 @@ Grace + Mona
 
 ... what? 
 
-**Lokal**: dein PC
-**Remote**: in der Cloud (GitHub, GitLab, ...)
+
+- **Lokal**: dein PC
+- **Remote**: in der Cloud (GitHub, GitLab, ...)
 
 ![Gitkraken Lokal Remote](images/gitkraken_remote_lokal.png)
 
