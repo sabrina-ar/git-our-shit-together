@@ -298,8 +298,7 @@ Grace + Mona
 
 @ol
 
-- so lange nichts gepusht ist, alles (halbwegs) gut
-    - oft committen!
+- so lange nichts gepusht ist, alles (halbwegs) gut --> oft committen!
 - zur Not: Codestand sichern und neu clonen 
 
 @olend 
@@ -307,7 +306,30 @@ Grace + Mona
 
 --- 
 
-### Git stash
+### Merge conflicts
+
+@box[bg-blue text-black rounded](Merge conflicts#"Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file." ([Source](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line)))
+
+### Merge conflicts
+- müssen lokal und **manuell** gelöst werden --> entscheiden, welche Version man beibehält
+- integriertes [Merge Conflict Tool in Gitkraken](https://blog.axosoft.com/merge-conflict-tool/)
+
+### Hands on 5: Merge conflicts
+
+@ol
+- Mona oder Grace: editiert **auf GitHub** das Readme in einer Zeile
+- Mona & Grace: editiert bei sich lokal das Readme in der gleichen Zeile (etwas anderes)
+- Mona & Grace: eigene Änderung committen (nicht pushen!)
+- Mona & Grace: `pull` 
+- Mona & Grace: merge conflict lokal lösen und die eigene Version pushen.
+
+@olend 
+
+---
+
+
+
+### Sidenote: Git stash
 
 @box[bg-blue text-black rounded](Stash#"git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit". ([Source](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)))
 
@@ -333,19 +355,6 @@ Grace + Mona
 
 @olend
 
-
----
-
-### Hands on 5: Merge conflicts
-
-@ol
-- Mona oder Grace: editiert **auf GitHub** das Readme in einer Zeile
-- Mona & Grace: editiert bei sich lokal das Readme in der gleichen Zeile (etwas anderes)
-- Mona & Grace: eigene Änderung committen (nicht pushen!)
-- Mona & Grace: `pull` 
-- Mona & Grace: merge conflict lokal lösen und die eigene Version  pushen.
-
-@olend 
 
 ---
 
