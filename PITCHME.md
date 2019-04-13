@@ -90,42 +90,11 @@
 
 @olend
 
-
 ---
 
-### Oh!
+# Authentification 
 
-![Git clone error](images/gitclone_auth_error.png)
-
-
----
-
-### Oh! - Nicht-Gitkraken
-
-```
-Cloning into 'git-our-shit-together'...
-git@github.com: Permission denied (publickey).
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-```
-
----
-
-### SSH 
-
-@ul 
-
-- Download: 
-    - prinzipell jede*r @fa[lock-open] über `https` --> @fa[github]: @fa[check]
-    - `ssh`: vorherige Einrichtung ntowendig --> @fa[github]: @fa[question]
-- Upload: nur authentifizierte Personen @fa[lock]
-- --> @fa[github]: @fa[question]
-
-@ulend
-
----
+--- 
 
 ### Authentification - Passwort
 
