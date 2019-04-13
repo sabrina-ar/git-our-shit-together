@@ -2,9 +2,21 @@
 
 --- 
 
+### Who am I? 
+- Frie(~drike~) Preu
+- data scientist / IT consultant / software developer bei codecentric 
+- bei CorrelAid: IT Infrastruktur, interne Projekte (R Packages, ...) 
+- Add me:
+    - LinkedIn: [Friedrike Preu](https://www.linkedin.com/in/friedrike-preu-a2bb46a7/)
+    - Twitter: [@ameisen_strasse](https://twitter.com/ameisen_strasse)
+    - GitHub: [friep](https://github.com/friep)
+
+---
+
+
 ### Installation und Accounterstellung
 - siehe `README` des Repositories
-- `www.github.com/friep/git-our-shit-together`
+- [www.github.com/friep/git-our-shit-together](www.github.com/friep/git-our-shit-together)
 
 
 ---
@@ -47,7 +59,7 @@
 
 @box[bg-blue text-black rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repository)))
 
-@box[bg-blue text-black rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/))
+@box[bg-blue text-black rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/)))
 
 ---
 
@@ -188,7 +200,7 @@ and the repository exists.
     - Löschung von Dateien
     - Umbenennung von Dateien
 - ein Commit kann mehrere Änderungen beinhalten
-asasasa
+
 
 
 ---
@@ -382,6 +394,8 @@ Grace + Mona
 
 @ulend
 
+- Beispiel: [https://github.com/jandix/sealr/issues](https://github.com/jandix/sealr/issues) 
+
 ---
 
 ### Hands On 6: Issue
@@ -448,13 +462,15 @@ Grace + Mona
 
 @ulend
 
+- Beispiel: [https://github.com/jandix/sealr/branches](https://github.com/jandix/sealr/branches)
+
 ---
 
 ### Branches Workflow
 
 @ol
 
-- Branch erstellen mit aussagekräftigem Namen (z.B. issue1-add-favorite-gif)  
+- Branch in Gitkraken erstellen mit aussagekräftigem Namen (z.B. issue1-add-favorite-gif)  
 - branch auschecken (Doppelklick on Icon in Gitkraken)
 - normal weiterarbeiten (pull-commit-push cycles)
 - (optional: merge andere branches in deinen branch um Updates zu bekommen)
@@ -476,7 +492,16 @@ Grace + Mona
 
 @box[bg-blue text-black rounded](Pull requests#Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.[Source](https://help.github.com/en/articles/about-pull-requests))
 
---> in Kombination mit Branches verwenden!
+
+### Pull Requests
+
+@ul
+
+- in Kombination mit Branches verwenden
+- "Review" Funktionalität
+- 
+
+@ulend 
 
 ---
 
@@ -490,8 +515,9 @@ Grace + Mona
 
 @ulend
 
+
 ---
 
 # Das wars. 
 
-### gerne den Tag über fragen! 
+### Morgen dann Setup eurer GitHub Repos - schon mal Namen überlegen! ;) #priorities
