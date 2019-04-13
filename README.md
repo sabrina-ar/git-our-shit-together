@@ -11,6 +11,3 @@
 - [Getting started with Gitkraken for Windows](https://reganmusic.wordpress.com/2016/07/12/getting-started-with-gitkraken-for-windows/)
 - [Gitkraken branching and merging guide](https://support.gitkraken.com/working-with-repositories/branching-and-merging)
 
-Hallo WE GOT A PROBLEM! Hallo 
-
-Hallo, wir wollen ein Problem
