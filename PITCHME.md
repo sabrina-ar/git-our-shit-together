@@ -302,8 +302,7 @@ Grace + Mona
 
 @ol
 
-- so lange nichts gepusht ist, alles (halbwegs) gut
-    - oft committen!
+- so lange nichts gepusht ist, alles (halbwegs) gut --> oft committen!
 - zur Not: Codestand sichern und neu clonen 
 
 @olend 
